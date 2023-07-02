@@ -1,0 +1,60 @@
+body{
+    font-family: sans-serif;
+}
+
+main{
+    display : grid;
+    place-items :  center;
+    height: 100vh;
+    width : 100vw;
+}
+
+.middle{
+    text-align : center;
+}
+nav{
+    background-color : whitesmoke;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 0.7rem;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border-bottom: 1px solid white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.text{
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+h1{
+    font-size : 6vh;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 7px;
+    color :white;
+    background-color:rgb(31, 31, 31) ;
+    padding: 10px 16px;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+}
+
+button{
+    margin: 10px;
+    letter-spacing : 5px;
+    word-spacing: 4px;
+}
+
+.btn{
+    font-weight: bold;
+    border : 2px solid  black;
+    box-shadow: 1px 1px grey;
+    border-radius: 7px;
+}
